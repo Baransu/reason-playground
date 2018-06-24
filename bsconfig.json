@@ -1,0 +1,16 @@
+{
+  "name": "reason-scripts",
+  "sources": ["src", "src/tests"],
+  "bs-dependencies": ["reason-react", "reason-apollo", "@glennsl/bs-jest"],
+  "reason": {
+    "react-jsx": 2
+  },
+  "ppx-flags": ["graphql_ppx/ppx"],
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3,
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js"
+}
